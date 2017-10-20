@@ -1,0 +1,22 @@
+name: node-red-pack
+version: 0.17.5-1
+summary: Flow-based programming for the Internet of Things
+description: |
+   Node-RED is a tool for wiring together hardware devices, 
+   APIs and online services in new and interesting ways.
+
+grade: devel
+confinement: devmode
+
+apps:
+  red:
+    command: bin/node-red-pack -v --userDir "$SNAP_USER_DATA"
+    daemon: simple
+    restart-condition: always
+    plugs: [network, network-bind]
+
+parts:
+  red:
+    plugin: nodejs
+    source: .
+    build-packages: [python, build-essential]
