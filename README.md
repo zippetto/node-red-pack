@@ -27,3 +27,6 @@ If you want to manage docker containers inside a flow (for example, exec node) y
         snap connect node-red-pack:docker-cli docker:docker-daemon
         snap connect node-red-pack:docker-executables docker:docker-executables
 
+Test flow
+
+        [{"id":"8336cb81.926da8","type":"exec","z":"ba0ca96d.57d278","command":"docker-wrapper docker version","addpay":false,"append":"","useSpawn":"false","timer":"","oldrc":false,"name":"docker wrapper","x":337,"y":605,"wires":[["2a49e83a.b415b8"],[],[]]},{"id":"d58766b2.ffadc8","type":"inject","z":"ba0ca96d.57d278","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":140,"y":600,"wires":[["8336cb81.926da8"]]},{"id":"2a49e83a.b415b8","type":"debug","z":"ba0ca96d.57d278","name":"","active":true,"console":"false","complete":"false","x":570,"y":600,"wires":[]}]
