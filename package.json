@@ -8,12 +8,17 @@
   "license": "ISC",
   "dependencies": {
     "node-red": "^0.17.5",
+    "keras-js": "^0.3.0",
+    "neataptic": "^1.4.7",
     "node-red-contrib-msg-queue": "^1.0.0",
     "node-red-contrib-modbus": "^2.1.0",
     "node-red-contrib-knx": "^0.8.1",
     "node-red-contrib-opcua": "^0.2.22",
     "node-red-node-base64": "^0.0.6",
     "node-red-dashboard": "^2.5.1",
-    "node-red-contrib-statistics": "^1.1.0"
+    "node-red-contrib-statistics": "^1.1.0",
+    "node-red-contrib-ovia-os": "^0.1.10",
+    "node-red-contrib-canbus": "zippetto/node-red-contrib-canbus",
+    "node-red-contrib-cpu": "^0.0.1"
   }
 }
