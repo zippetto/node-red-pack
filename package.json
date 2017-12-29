@@ -8,8 +8,6 @@
   "license": "ISC",
   "dependencies": {
     "node-red": "^0.17.5",
-    "keras-js": "^0.3.0",
-    "neataptic": "^1.4.7",
     "node-red-contrib-msg-queue": "^1.0.0",
     "node-red-contrib-modbus": "^2.1.0",
     "node-red-contrib-knx": "^0.8.1",
