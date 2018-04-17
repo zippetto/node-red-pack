@@ -20,6 +20,7 @@ If you want to run the latest code from git, here's how to get started:
 
 ## Docker inside Node-RED (Ubuntu Core 16)
 
+Warning: please note that it should not be used in production!
 If you want to manage docker containers inside a flow (for example, exec node) you need:
 
         snap connect node-red-pack:privileged :docker-support
